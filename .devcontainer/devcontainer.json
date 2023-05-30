@@ -1,9 +1,9 @@
 {
 	"name": "my Clojure app",
-	"build": {
+	"build":{
 		"dockerfile": "Dockerfile"
-
-		},
+		
+	},
 
 	//if you want to run a repl inside container
 	//"runArgs": [ "-p", "12345:12345" ],
