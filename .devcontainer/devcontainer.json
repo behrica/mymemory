@@ -1,9 +1,11 @@
 {
 	"name": "my Clojure app",
-	"build":{
-		"dockerfile": "Dockerfile"
-		
-	},
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+
+	"service": "devcontainer",
+	"workspaceFolder": "/workspace",
 
 	//if you want to run a repl inside container
 	//"runArgs": [ "-p", "12345:12345" ],
